@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&family=Comic+Sans+MS&display=swap" rel="stylesheet">
+    <title>Cosplay Costumes</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="Cosplay Costumes Logo">   
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="search-cart">
+            <input type="text" placeholder="Search...">
+            <div class="cart-icon">🛒</div>
+        </div>
+    </header>
+
+    <section class="categories">
+        <h2>Shop by Category</h2>
+        <div class="category-grid">
+            <div class="category">
+                <img src="img/Costume1.png" alt="Anime Costumes">
+                <h3>Anime Costumes</h3>
+                <p>$50</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="category">
+                <img src="img/Costume2.png" alt="Sci-Fi Costumes">
+                <h3>Sci-Fi Costumes</h3>
+                <p>$19</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="category">
+                <img src="img/Fantasy.png" alt="Fantasy Costumes">
+                <h3>Fantasy Costumes</h3>
+                <p>$30</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="category">
+                <img src="img/download.png" alt="Accessories">
+                <h3>Accessories</h3>
+                <p>$50</p>
+                <button>Add to Cart</button>
+            </div>
+            <!-- Repeat for more products -->
+        </div>
+    </section>
+
+    <!-- Featured Products Section -->
+    <section class="featured-products">
+        <h2>Featured Products</h2>
+        <div class="product-list"></div> <!-- This is where the JavaScript will inject products -->
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Cosplay Costumes | Follow us on social media</p>
+    </footer>
+
+    <!-- Link to external JavaScript file -->
+    <script src="style.js"></script>
+</body>
+</html>
